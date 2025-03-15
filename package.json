@@ -11,8 +11,7 @@
   "files": [
     "index.json"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "oxlint": "^0.15.15"
   },
