@@ -1,0 +1,27 @@
+{
+  "name": "oxlint-config-egg",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">= 18.19.0"
+  },
+  "description": "Node.js Style Guide for EggJS, base on oxlint",
+  "files": [
+    "index.json"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "oxlint": "^0.15.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eggjs/oxlint-config-egg"
+  },
+  "homepage": "https://github.com/eggjs/oxlint-config-egg",
+  "author": "fengmk2 <hello@fengmk2.com>",
+  "scripts": {
+    "lint": "oxlint",
+    "test": "oxlint",
+    "ci": "oxlint"
+  }
+}
